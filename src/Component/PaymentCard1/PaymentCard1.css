@@ -1,0 +1,86 @@
+.pay-card {
+  width: 100%;
+  height: 65vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3%;
+}
+
+.pay-card-wrap1 {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pay-card-left1 {
+  width: 45%;
+  height: 90%;
+}
+
+.pay-card-left1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.pay-card-right1 {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.pay-card-right1 h1 {
+  font-size: 36px;
+}
+.pay-card-p1  {
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.pay-div1 {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.pay-span1 {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.pay-div-img1 {
+  width: 8%;
+  height: 90%;
+  background-color: #f1fef4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 3px;
+}
+
+.pay-span1 img {
+  width: 15px;
+  height: 15px;
+}
+
+.pay-span1 p {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.pay-find1 {
+  font-weight: 600;
+  color: green;
+  font-size: larger;
+}

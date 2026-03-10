@@ -1,0 +1,98 @@
+.pay-card {
+  width: 100%;
+  height: 65vh;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3%;
+}
+
+.pay-card-wrap {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  gap: 90px;
+  /* justify-content: space-around; */
+}
+
+.pay-card-left {
+  width: 40%;
+  height: 90%;
+  background-color: beige;
+}
+
+.pay-card-left img {
+  width: 100%;
+  height: 100%;
+}
+
+.pay-card-right {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.pay-card-right h1 {
+  font-family:
+    Boing,
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Helvetica,
+    Arial,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    ;
+  font-size: 36px;
+}
+.pay-card-right p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.pay-div {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.pay-span {
+  width: 50%;
+  display: flex;
+  gap: 10px;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.pay-div-img {
+  width: 12%;
+  height: 80%;
+  background-color: #f1fef4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 3px;
+}
+
+.pay-span img {
+  width: 15px;
+  height: 15px;
+}
+
+.pay-span p {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.pay-find {
+  font-weight: 600;
+  font-size: 14px;
+  color: green;
+}
