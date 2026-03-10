@@ -40,5 +40,27 @@ export const checker = [
     text: "Mobile Money",
   },
   { img: "https://paystack.com/assets/img/icon/check.svg", text: "Visa QR" },
-  { img: "https://paystack.com/assets/img/icon/check.svg", text: "Bank Transfer" },
+  {
+    img: "https://paystack.com/assets/img/icon/check.svg",
+    text: "Bank Transfer",
+  },
+];
+
+export const check = [
+  {
+    img: "https://paystack.com/assets/img/icon/check.svg",
+    text: "Collect one-time and recurring payments from your app or website",
+  },
+  {
+    img: "https://paystack.com/assets/img/icon/check.svg",
+    text: "Make instant transfers",
+  },
+  {
+    img: "https://paystack.com/assets/img/icon/check.svg",
+    text: "Verify the identity of customer",
+  },
+  {
+    img: "https://paystack.com/assets/img/icon/check.svg",
+    text: "Retrieve all your transaction and customer data",
+  },
 ];
