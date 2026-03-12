@@ -1,0 +1,19 @@
+.card-body {
+  width: 30%;
+  height: 380px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-body img{
+    width: 40%;
+    height: 30%;
+}
+
+.card-body h1{
+    width: 80%;
+}
