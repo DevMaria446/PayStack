@@ -1,4 +1,4 @@
-import { nav, navigations, navImage } from "../dummy";
+import { nav, navigations, navImage } from "../../dummy";
 import "./Header.css";
 
 const Header = () => {
@@ -6,7 +6,7 @@ const Header = () => {
     <>
       <div className="up">
         <p className="Reg">
-          {" "}
+            
           Register your business and get a corporate bank account - fast{" "}
         </p>
       </div>
@@ -45,7 +45,7 @@ const Header = () => {
                 </p>
                 <div className="map-left-wrap-btn">
                   <button className="map-nav-btn">
-                    {" "}
+                    
                     Create a free account
                   </button>
                   <p className="map-sales">Or Contact Sales</p>

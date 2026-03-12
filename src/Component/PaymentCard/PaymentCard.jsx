@@ -1,4 +1,4 @@
-import { checker } from "../dummy";
+import { checker } from "../../dummy";
 import "../PaymentCard/PaymentCard.css";
 function PaymentCard() {
   return (

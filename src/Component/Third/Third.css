@@ -1,0 +1,47 @@
+.third {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.third::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background-color: #eaf6fc;
+  background-image: url("https://paystack.com/assets/img/patterns/checked-pattern-blue.png");
+
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  opacity: 0.3;
+  z-index: 0;
+}
+
+.third-wrapper {
+  width: 70%;
+  height: 90%;
+  position: relative;
+  z-index: 1;
+}
+
+.third-text h1 {
+  font-size: 48px;
+  font-weight: 600;
+}
+.third-text p {
+  margin-top: 1%;
+  font-size: 21px;
+}
+
+.third-card {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

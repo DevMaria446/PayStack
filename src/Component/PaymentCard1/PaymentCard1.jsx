@@ -1,4 +1,4 @@
-import { check } from "../dummy";
+import { check } from "../../dummy";
 import "./PaymentCard1.css";
 import React from "react";
 
