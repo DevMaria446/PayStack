@@ -9,11 +9,11 @@ const Third = () => {
         <div className="third-wrapper">
           <div className="third-text">
             <h1>
-              {" "}
+              
               Trusted by 200,000+ <br /> businesses
             </h1>
             <p>
-              {" "}
+              
               Thousands of organizations of all sizes trust Paystack to grow
               their business.
             </p>
@@ -26,6 +26,9 @@ const Third = () => {
             />
             <Card
               title={"Paystack for Entrepreneurs"}
+              image={
+                "https://assets.paystack.com/assets/img/content/For-Entrepreneurs_180823_165709.svg"
+              }
               desc={
                 "From startup to scale-up, we can support you at every stage of your businesses’ growth"
               }

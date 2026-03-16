@@ -1,45 +1,48 @@
-.third {
+.fifth {
   width: 100%;
   height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
 
-  background-color: #eaf6fc; /* solid background color */
+  background-color: #f9fbfc; /* solid background color */
   position: relative;
 }
 
-.third::before {
+.fifth::before {
   content: "";
   position: absolute;
   inset: 0;
   background-size: 100%;
-  background-image: url("https://paystack.com/assets/img/patterns/checked-pattern-blue.png");
+  /* background-image: url("https://paystack.com/assets/img/patterns/circular-pattern.png"); */
   background-repeat: no-repeat;
   opacity: 0.2;
   z-index: 0;
 }
 
-.third-wrapper {
+.fifth-wrapper {
   width: 70%;
-  height: 90%;
+  height: 70%;
   position: relative;
   z-index: 1;
 }
 
-.third-text h1 {
-  font-size: 48px;
-  font-weight: 600;
+.fifth-text h1 {
+  font-size: 56px;
+  font-weight: 700;
 }
-.third-text p {
+.fifth-text p {
   margin-top: 1%;
   font-size: 21px;
+  width: 40%;
 }
 
-.third-card {
+.fifth-card {
   width: 100%;
   height: 80%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
+  /* background-color: blue; */
+  margin-top: 3%;
 }

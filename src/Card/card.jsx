@@ -5,7 +5,10 @@ const Card = ({ image, title, desc, other }) => {
     <div className="card-body">
       <img className="image-card" src={image} alt="" /> <h1> {title}</h1>
       <p> {desc}</p>
-      <span></span>
+      <span>
+         <div className="ciri"></div>
+        <p>Learn More</p>
+      </span>
     </div>
   );
 };

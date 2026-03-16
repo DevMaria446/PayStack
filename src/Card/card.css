@@ -1,19 +1,33 @@
 .card-body {
   width: 30%;
-  height: 380px;
+  height: 360px;
   background-color: white;
   padding: 20px;
-  border-radius: 3px;
+  border-radius: 6px;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.card-body img{
-    width: 40%;
-    height: 30%;
+.card-body img {
+  width: 40%;
+  height: 30%;
 }
 
-.card-body h1{
-    width: 80%;
+.card-body h1 {
+  width: 80%;
+}
+
+.ciri {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: green;
+}
+
+.card-body span {
+  margin-top: 2%;
+  display: flex;
+  gap: 5px;
+  align-items: center;
 }
